@@ -44,7 +44,7 @@ This project is dedicated to analyzing air quality data using various machine le
 6. Implement real-time data processing and predictive analytics to provide immediate warnings and updates.
 7. Leverage IoT and edge computing to process data closer to the source, reducing latency.
 # Technical requirements
-1. We would require machine learning methodologies to put in production such type of models.
+1. We would require MLOps frameworks to put in production such type of models.
 2. It would be important to consider a machine learning architecture to integrate the different data sources with the different stages of the production phase.
 3. Continuously monitoring of model performance and data distribution.
 4. Real-time or near-to-real-time responses, depending of the final bussiness goal, e.g. reduce the bad quality of air by locations, hours, etc.
