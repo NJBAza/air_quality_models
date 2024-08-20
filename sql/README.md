@@ -1,3 +1,15 @@
+<!-- TOC -->
+
+- [Air quality](#air-quality)
+  - [](#)
+  - [Posgresql container](#posgresql-container)
+    - [CLI for Postgres](#cli-for-postgres)
+  - [pgAdmin](#pgadmin)
+- [Ingesting the data](#ingesting-the-data)
+- [Queries](#queries)
+
+<!-- /TOC -->
+
 # Air quality
 Without use docker-compose, we can create a posgresql-pgadmin as follows:
 ##
@@ -59,3 +71,33 @@ python ingest_airquality.py \
   --table_name=AirQuality \
   --url=${URL}
 ```
+
+# Queries
+In PostgreSQL we did the following query:
+```bash
+SELECT 
+	* 
+FROM 
+	public."AirQuality"
+ORDER BY
+	"CO(GT)" DESC, "C6H6(GT)" DESC, "NO2(GT)" DESC
+```
+<img src="first_query.png" alt="alt text" width="600"/>
+
+```bash
+SELECT 
+	AVG("NO2(GT)") AS "AVERAGE OF NO2", STDDEV("NO2(GT)") AS "STDDEV OF NO2"
+FROM 
+	public."AirQuality"
+```
+<img src="second_query.png" alt="alt text" width="600"/>
+
+```bash
+SELECT 
+	* 
+FROM 
+	public."AirQuality"
+WHERE
+	"CO(GT)" > 2 AND "T" < 15
+```
+<img src="third_query.png" alt="alt text" width="600"/>

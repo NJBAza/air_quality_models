@@ -1,3 +1,12 @@
+<!-- TOC -->
+
+- [README](#readme)
+  - [Regressor Model](#regressor-model)
+  - [Classifier Model](#classifier-model)
+- [Segmentor model](#segmentor-model)
+
+<!-- /TOC -->
+
 # README
 This subfolder has the models regarding the statement of the problem. We find three different models, namely, a regressor, a classifier and a segmentor model.
 

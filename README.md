@@ -1,3 +1,12 @@
+<!-- TOC -->
+
+- [README: Project Structure for Air Quality Analysis](#readme-project-structure-for-air-quality-analysis)
+- [Limitations of Air Quality Models](#limitations-of-air-quality-models)
+  - [Data Quality and Availability:](#data-quality-and-availability)
+  - [Possible Improvements](#possible-improvements)
+- [Technical requirements](#technical-requirements)
+
+<!-- /TOC -->
 # README: Project Structure for Air Quality Analysis
 **Project Overview**<br/>
 This project is dedicated to analyzing air quality data using various machine learning techniques. The directory structure is organized into subfolders, each serving a specific purpose in the workflow, from data processing to model development and evaluation. This README file provides an overview of each subfolder and its contents.
