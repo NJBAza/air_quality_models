@@ -24,60 +24,30 @@ This project is dedicated to analyzing air quality data using various machine le
 │   └── working.csv
 ├── README.md
 ├── sql
-│   ├── ingest_airquality.py
-│   ├── __main__.py
-│   ├── README.md
-│   └── uploading_airquality_data.ipynb
-└── Test - DS -Javier Buitrago.docx
+    ├── ingest_airquality.py
+    ├── __main__.py
+    ├── README.md
+    └── uploading_airquality_data.ipynb
 ```
-Subfolders Explanation
-1. data/
-Purpose: Contains all datasets used in the project, including raw data, processed data, and any external data sources.
 
-raw/: This folder contains the original, unprocessed datasets. These files are kept unchanged for reference and reproducibility.
-processed/: Contains cleaned and preprocessed data that is ready for analysis and modeling.
-external/: Includes any data sourced externally, such as from public APIs, government databases, or third-party providers.
-README.md: This file provides details on the origin of the datasets, preprocessing steps taken, and instructions on how to add new datasets.
-
-2. notebooks/
-Purpose: Hosts Jupyter notebooks used for exploratory data analysis, model development, and documentation of experiments.
-
-exploratory/: Contains notebooks focused on initial data exploration, visualization, and hypothesis generation.
-models/: Notebooks dedicated to building and fine-tuning machine learning models. This includes regression, classification, and segmentation models.
-README.md: Describes the purpose of each notebook, the sequence in which they should be executed, and any dependencies required.
-
-3. models/
-Purpose: Stores trained machine learning models and related artifacts.
-
-regression/: Contains models and results related to regression tasks, such as predicting pollutant levels.
-classification/: Includes models and results for classification tasks, such as categorizing air quality levels.
-segmentation/: Houses models for segmentation tasks, like identifying pollution hotspots or time periods.
-README.md: Provides an overview of each model type, instructions on how to load and use the models, and a summary of model performance metrics.
-
-4. scripts/
-Purpose: Contains Python scripts used for various tasks in the project, including data preprocessing, model training, and evaluation.
-
-data_preprocessing/: Scripts for cleaning, transforming, and preparing data for analysis.
-model_training/: Scripts that automate the process of training machine learning models based on different algorithms.
-evaluation/: Contains scripts for evaluating model performance, including generating metrics and visualizations.
-README.md: Explains the purpose of each script, how to execute them, and any dependencies or configurations required.
-
-5. reports/
-Purpose: Consolidates all final outputs, reports, and visualizations generated throughout the project.
-
-figures/: Stores all plots, charts, and visualizations generated during the analysis and modeling phases.
-final_report/: Contains the final report, including all findings, recommendations, and supporting evidence.
-README.md: Summarizes the contents of the reports and figures, and provides instructions on how to generate new reports or replicate existing ones.
-
-How to Use This Project
-Start with Data: Begin by exploring the datasets in the data/ folder. Use the notebooks in the notebooks/exploratory/ folder to get a sense of the data and identify key variables.
-Model Development: Utilize the notebooks in the notebooks/models/ folder to develop and refine your machine learning models. Store trained models in the appropriate subfolder under models/.
-Automation: Use the scripts in the scripts/ folder to automate data processing and model training tasks.
-Reporting: Generate visualizations and final reports, which will be stored in the reports/ folder.
-Contribution Guidelines
-Data: Any new datasets should be placed in the appropriate subfolder under data/, and the README.md should be updated to reflect the changes.
-Notebooks: New notebooks should be added to the notebooks/ folder with appropriate documentation.
-Models: Trained models should be stored in the models/ folder, with corresponding updates to the README.md.
-Scripts: New scripts should be added to the scripts/ folder, ensuring they are well-documented and follow project conventions.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.# air_quality_model
+# Limitations of Air Quality Models
+## Data Quality and Availability:
+1. Incomplete data, for example, respect geolocation or vehicular traffic, or devices errors/calibrations can limit the accuracy of predictions.
+2. Lack of real-time data integration might affect the responsiveness of the model to sudden changes in air quality.
+3. Models might not adequately represent local variations if the spatial resolution is too coarse.
+## Possible Improvements
+1. Increase the spatial and temporal resolution of models to capture microclimates and rapid changes better.
+2. Use localized models for areas with significant human activity to get more accurate predictions for those regions.
+3. Include traffic data, industrial output, and even social media data for real-time incident reporting.
+4. Use advanced meteorological modeling to better understand and predict the impact of weather conditions.
+5. Develop an integrated system that combines air quality data with public health data to directly correlate pollution levels with health outcomes. Different data sources APIs, etc.
+6. Implement real-time data processing and predictive analytics to provide immediate warnings and updates.
+7. Leverage IoT and edge computing to process data closer to the source, reducing latency.
+# Technical requirements
+1. We would require machine learning methodologies to put in production such type of models.
+2. It would be important to consider a machine learning architecture to integrate the different data sources with the different stages of the production phase.
+3. Continuously monitoring of model performance and data distribution.
+4. Real-time or near-to-real-time responses, depending of the final bussiness goal, e.g. reduce the bad quality of air by locations, hours, etc.
+5. Track the different models in order to mabage the manage machine learning lifecycle;
+6. A/B Testing to verify that different models in fact preserve suitable metrics in real-world scenarios;
+7. Integration of different data sources;traffic, industrial outputs, and social media.
