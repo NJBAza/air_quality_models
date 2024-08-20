@@ -1,0 +1,12 @@
+venv/**
+venv/
+venv
+
+*.docx
+
+.flake8
+.isort.cfg
+
+.ipynb_checkpoints
+**.ipynb_checkpoints
+**/*.ipynb_checkpoints/

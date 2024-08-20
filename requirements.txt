@@ -1,0 +1,83 @@
+asttokens==2.4.1
+black==24.8.0
+certifi==2024.7.4
+charset-normalizer==3.3.2
+cli_helpers @ file:///home/conda/feedstock_root/build_artifacts/cli_helpers_1707218923261/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+cloudpickle==3.0.0
+comm==0.2.2
+configobj @ file:///home/conda/feedstock_root/build_artifacts/configobj_1674244895923/work
+contourpy==1.2.1
+cycler==0.12.1
+debugpy==1.8.5
+decorator==5.1.1
+et-xmlfile==1.1.0
+executing==2.0.1
+featuretools==1.31.0
+flake8==7.1.1
+fonttools==4.53.1
+greenlet==3.0.3
+holidays==0.54
+idna==3.7
+importlib_resources==6.4.3
+ipykernel==6.29.5
+ipython==8.26.0
+isort==5.13.2
+jedi==0.19.1
+joblib==1.4.2
+jupyter_client==8.6.2
+jupyter_core==5.7.2
+kiwisolver==1.4.5
+matplotlib==3.7.3
+matplotlib-inline==0.1.7
+mccabe==0.7.0
+mypy-extensions==1.0.0
+nest-asyncio==1.6.0
+numpy==1.26.4
+nvidia-nccl-cu12==2.22.3
+openpyxl==3.1.5
+packaging==24.1
+pandas==2.2.2
+parso==0.8.4
+pathspec==0.12.1
+pendulum @ file:///home/conda/feedstock_root/build_artifacts/pendulum_1704652430295/work/rust/target/wheels/pendulum-3.0.0-cp311-cp311-linux_x86_64.whl#sha256=f3c559d3efaeec3ffd85596d7e8b5b40633ad605fd9cfea4740f853bb4abf875
+pexpect==4.9.0
+pgcli @ file:///home/conda/feedstock_root/build_artifacts/pgcli_1715399095029/work
+pgspecial @ file:///home/conda/feedstock_root/build_artifacts/pgspecial_1715861110888/work
+pillow==10.4.0
+platformdirs==4.2.2
+prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1718047967974/work
+psutil==6.0.0
+psycopg @ file:///home/conda/feedstock_root/build_artifacts/psycopg-split_1719819821042/work/psycopg
+psycopg-c @ file:///home/conda/feedstock_root/build_artifacts/psycopg-split_1719819821042/work/psycopg-c
+psycopg2 @ file:///home/conda/feedstock_root/build_artifacts/psycopg2-split_1701737563045/work
+ptyprocess==0.7.0
+pure_eval==0.2.3
+pycodestyle==2.12.1
+pyflakes==3.2.0
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1714846767233/work
+pyparsing==3.1.2
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1709299778482/work
+pytz==2024.1
+pyzmq==26.1.0
+requests==2.32.3
+scikit-learn==1.5.1
+scipy==1.14.0
+seaborn==0.12.2
+setproctitle @ file:///home/conda/feedstock_root/build_artifacts/setproctitle_1696431161493/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+SQLAlchemy==2.0.32
+sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1681817562700/work
+stack-data==0.6.3
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1665138452165/work
+threadpoolctl==3.5.0
+time-machine @ file:///home/conda/feedstock_root/build_artifacts/time-machine_1722958300191/work/dist
+tornado==6.4.1
+tqdm==4.66.5
+traitlets==5.14.3
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
+tzdata==2024.1
+urllib3==2.2.2
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1704731205417/work
+woodwork==0.31.0
+xgboost==2.1.1
