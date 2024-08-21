@@ -14,8 +14,6 @@ This project is dedicated to analyzing air quality data using various machine le
 ***Directory Structure***<br/>
 ```/project-root
 .
-├── air_quality_db  [error opening dir]
-├── app.py
 ├── data
 │   ├── AirQualityUCI.csv
 │   ├── test.csv
@@ -32,11 +30,15 @@ This project is dedicated to analyzing air quality data using various machine le
 │   ├── test.csv
 │   └── working.csv
 ├── README.md
+├── requirements.txt
 ├── sql
-    ├── ingest_airquality.py
-    ├── __main__.py
-    ├── README.md
-    └── uploading_airquality_data.ipynb
+│   ├── first_query.png
+│   ├── ingest_airquality.py
+│   ├── __main__.py
+│   ├── README.md
+│   ├── second_query.png
+│   ├── third_query.png
+│   └── uploading_airquality_data.ipynb
 ```
 
 # Limitations of Air Quality Models
