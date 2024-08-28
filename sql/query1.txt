@@ -1,0 +1,6 @@
+SELECT 
+	* 
+FROM 
+	public."AirQuality"
+ORDER BY
+	"CO(GT)" DESC, "C6H6(GT)" DESC, "NO2(GT)" DESC

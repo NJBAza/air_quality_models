@@ -1,0 +1,6 @@
+SELECT 
+	* 
+FROM 
+	public."AirQuality"
+WHERE
+	"CO(GT)" > 2 AND "T" < 15

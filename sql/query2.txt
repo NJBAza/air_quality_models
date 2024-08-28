@@ -1,0 +1,4 @@
+SELECT 
+	AVG("NO2(GT)") AS "AVERAGE OF NO2", STDDEV("NO2(GT)") AS "STDDEV OF NO2"
+FROM 
+	public."AirQuality"
